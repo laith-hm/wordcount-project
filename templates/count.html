@@ -1,0 +1,11 @@
+<h1>your count is {{ourcount}}  </h1>
+
+<a href=" {%url 'home'%}">Start again</a>
+
+<h1>myText:</h1>
+
+{% for word, counttotal in sorteddict%}
+
+{{word}} - {{counttotal}}
+<br/>
+{%endfor%}
